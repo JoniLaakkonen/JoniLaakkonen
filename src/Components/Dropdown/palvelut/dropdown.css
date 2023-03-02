@@ -1,0 +1,101 @@
+.service-submenu {
+    position: absolute;
+    width: 12rem;
+
+    text-align: start;
+    list-style: none;
+
+    top: 8vh;
+
+    background-color: var(--color-medgreen);
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+.service-submenu li {
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+
+.service-submenu.clicked {
+    display: none;
+}
+
+.submenu-item {
+    display: block;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    text-shadow: none;
+    color: var(--color-text);
+}
+
+.submenu-item a {
+    display: block;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    color: var(--color-text);
+    padding: 16px;
+    border-bottom: none;
+}
+.service-submenu li:hover {
+    background-color: var(--color-darkgreen);
+    padding: 12px 0;
+}
+
+@media (max-width:1056px) {
+    .service-submenu {
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+    
+        text-align: center;
+    
+        
+    
+        background-color: var(--color-medgreen);
+        border-radius: 12px;
+        -moz-border-radius: 12px;
+        -webkit-border-radius: 12px;
+    }
+    .service-submenu#SV{
+        top: calc(8vh + (1.85*8vh));
+    }
+    .service-submenu#LT{
+        top: calc(8vh + (6.85*8vh));
+    }
+    .service-submenu li {
+        cursor: pointer;
+        transition: 0.1s ease-in;
+    }
+    
+    .service-submenu.clicked {
+        display: none;
+    }
+    
+    .submenu-item {
+        display: block;
+        font-weight: 600;
+        width: 100%;
+        height: 100%;
+        padding: 16px;
+        text-shadow: none;
+        color: var(--color-text);
+    }
+    
+    .submenu-item a {
+        display: block;
+        font-weight: 600;
+        width: 100%;
+        height: 100%;
+        color: var(--color-text);
+        padding: 16px;
+        border-bottom: none;
+    }
+    .service-submenu li:hover {
+        background-color: var(--color-darkgreen);
+        padding: 12px 0;
+    }
+}

@@ -1,0 +1,101 @@
+.BTC-section {
+    display: flex;
+    position: absolute;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    
+
+    top: 100vh;
+    width: 100%;
+    height: 100vh;
+
+    background: radial-gradient(circle at 100% -40%, #fefaedaa 56%, #f4bd28aa 2%, #da7421aa 100%);
+}
+
+.BTC-section #header {
+    text-align: center;
+    float: top;
+    font-size: 42px;
+    margin: 7rem 0 0;
+    color: var(--color-medgreen);
+}
+
+.BTC-content {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 500px;
+    margin: 3.5rem;
+    padding: 2rem;
+    border-radius: 20px;
+
+    background: var(--color-darkYellow);
+}
+
+
+.BTC-text {
+    font-size: 22px;
+    line-height: 1.8rem;
+    font-weight: 400;
+    color: var(--color-text);
+    text-shadow: 2px 2px 2px var(--color-shadow);
+}
+
+
+@media (max-width: 1150px) {
+    .BTC-content{
+        transition: 0.3s ease-in-out;
+        margin: 5% 10% 1%;
+        width: 80%;
+    }
+    #Bo2{
+        margin: 1% 10%;
+    }
+}
+
+@media (max-width: 720px) {
+    .BTC-content{
+        margin: 10% 10% 1%;
+    }
+    #Bo2{
+        margin: 1% 10%;
+    }
+}
+
+@media (max-width: 555px) {
+    .BTC-section{
+        position: relative;
+        top: auto;
+        height: 100vh;
+        padding-bottom: 10%;
+    }
+    .BTC-content{
+        height: 100%;
+        width: 95%;
+        margin: 1% 2.5%;
+    }
+    #Bo2{
+        margin: 1% 2.5%;
+    }
+}
+
+
+@media (max-height: 635px) {
+    .BTC-section{
+        position: relative;
+        top: auto;
+        height: 100%;
+    }
+
+    .BTC-content{
+        height: 100%;
+        margin: 1% 2.5%;
+    }
+    #Bo2{
+        margin: 1% 2.5%;
+    }
+    
+}
