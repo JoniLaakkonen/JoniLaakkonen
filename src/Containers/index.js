@@ -5,5 +5,6 @@ import Service from "./Service/Service";
 import Blog from "./Blog/Blog";
 import Features from "./Features/Features";
 import BasicTxtContainer from "./BasicTxtCont/BasicTxtCont";
+import BackToMain from "../Components/BackToMain/BackToMain";
 
-export { Footer, NavBar, Blog, Header, Features, BasicTxtContainer, Service };
+export { Footer, NavBar, Blog, Header, Features, BackToMain, BasicTxtContainer, Service };

@@ -1,12 +1,14 @@
-import React from "react";
-import "./footer.css";
+import React from 'react'
+import "./Footer.css"
 
 function Footer() {
   return (
-    <div className="Footer">
-
-    </div>
-  );
+    <>
+     <footer>
+        <small id='copyR'>&copy; Copyright 2023<br/> Joni Laakkonen</small>
+     </footer>
+    </>
+  )
 }
 
-export default Footer;
+export default Footer

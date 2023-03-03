@@ -1,25 +1,26 @@
 import React from "react";
 import "./features.css";
-
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
-import { fontSize } from "@mui/system";
 
 function Features() {
 
+  const handleClick = () => {
+    window.open("https://github.com/JoniLaakkonen");
+  }
 
   return (
-      <div className="Features-section">
+      <div id="Features-section">
         <div className="Features-content">
-          <div className="Feature-Button">
+          <a className="Feature-Button" onClick={handleClick}>
             <h2 className="Features-header">
-              Tutustu myös blogiini
+              Git-Hub
             </h2>
             <ArrowCircleRightIcon sx={{ 
                 color: "white", 
                 fontSize: 48
             }}/>
               
-          </div>
+          </a>
         </div>
       </div>
   );

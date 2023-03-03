@@ -4,15 +4,15 @@
     
     --color-bg: #fafffb;
     
-    --color-footer:#47c961;
-    --color-medgreen:#35cc53;
-    --color-darkgreen:#2da745;
-    --color-lightgreen:#82fc86;
-    --color-stlightgreen:#82fc8688;
+    --color-footer:#476cc9;
+    --color-medgreen:#3562cc;
+    --color-darkgreen:#2d56a7;
+    --color-lightgreen:#82a7fc;
+    --color-stlightgreen:#82bdfc88;
 
-    --color-darkYellow:#da7421aa;
-    --color-yellow:#f4bd28aa;
-    --color-lightYellow:#fdf2d3aa;
+    --color-darkBlue:#2184daaa;
+    --color-Blue:#28f4eaaa;
+    --color-lightBlue:#d3e9fdaa;
 
     --color-text: #fafffb;
     --color-sttext: #fafffb2c;
@@ -21,9 +21,14 @@
     --color-darkshadow: rgba(0, 0, 0, 0.638);
     --color-black: #000000;
 
-    --img-mies-etusivu: url(./Assets/Images/mies-etusivu-4.jpg);
+    --color-card-secondary: #4894fe;
+    --color-card-dark: #212121;
+    --color-card-main: #4dff00;
+    --color-card-light: #F3F3F3;
 
-    --gradientcolor-green: linear-gradient(270deg, #35CC53 0%, #FFFFFF 20%);;
+    --img-mies-etusivu: url(/public/assets/images/Black_sand.jpg);
+
+    --color-cardStack: radial-gradient(circle at 100% -40%, #1856c256 56%, #5ef428aa 2%, #7721daaa 100%);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,500&display=swap');

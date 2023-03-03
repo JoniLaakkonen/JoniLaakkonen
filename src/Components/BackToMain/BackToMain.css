@@ -1,0 +1,36 @@
+.BTM {
+    display: flex;
+    width: 100px;
+    height: 8vh;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 200ms ease-in-out;
+}
+#BTM_arrowleft {
+    position: relative;
+    left: 65px;
+    transition: 200ms ease-in-out;
+}
+.BTM h2 {
+    position: relative;
+    color: var(--color-darkBlue);
+    margin-left: 10%;
+    white-space: nowrap;
+    left: -200px;
+    transition: 1000ms ease-in-out;
+    opacity: 0;
+}
+.BTM:hover > #BTM_text, .BTM:hover > #BTM_arrowleft {
+    display: block;
+    opacity: 100;
+    left: 0;
+}
+.BTM:hover {
+    display: flex;
+    width: 250px;
+    height: 8vh;
+    border-radius: 15px;
+    border: 2px solid var(--color-darkBlue);
+}

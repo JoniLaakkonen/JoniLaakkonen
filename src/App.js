@@ -1,24 +1,21 @@
 import React from "react";
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Main, AboutUs, RV, VT, TTO, Blogi, Ajanvaraus  } from "./Pages";
-import { NavBar } from "./Containers";
+import { Main, AboutMe, Skills } from "./Pages";
+import { NavBar, Footer } from "./Containers";
+import ScrollToTop from './Scripts/ScrollToTop';
 import "./app.css";
 
 function App() {
 
   return (
     <Router>
+        <ScrollToTop/>
         <div className="App">
           <Routes>
-            <Route path="/" element ={[<NavBar />, <Main />]} />
-            <Route path="/varaa_aika"  element ={[<NavBar />, <Ajanvaraus />]} />
-            <Route path="/blogi"  element ={[<NavBar />, <Blogi />]} />
-            <Route path="/tietoja"  element ={[<NavBar />, <AboutUs />]} />
-            <Route path="/ravintovalmennus"  element ={[<NavBar />, <RV />]} />
-            <Route path="/vyohyketerapia"  element ={[<NavBar />, <VT />]} />
-            <Route path="/tunne_ja_tietoisuus"  element ={[<NavBar />, <TTO />]} />
-
+            <Route path="/" element ={[<NavBar />, <Main />, <Footer />]} />
+            <Route path="/contact_card" element ={[<AboutMe />, <Footer />]} />
+            <Route path="/skills" element ={[<Skills />, <Footer />]} />
           </Routes>
         </div>
     </Router>

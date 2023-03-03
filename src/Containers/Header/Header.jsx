@@ -1,27 +1,18 @@
 import React from "react";
 import "./Header.css";
-import background from "../../Assets/Images/mies-etusivu-4.jpg";
 
 function Header() {
   return (
     <>
-      <div className="header-section" >
-        <div className="header-bg" style={{ backgroundImage: `url(${background})`,
-          width:'100%',
-          height:'100%',
-          position: 'absolute',
-          resizeMode: 'contain',
-          zIndex: -1,
-          }}>
-        </div>
+      <div id="header-section">
         <div className="header-content">
           
-            <h1 className="header-text" id="osa1">Pidä huolta<br/> kehostasi. Se on ainoa kotisi,
+            <h1 className="header-text" id="osa1"> I am <br/> inspired by the curiosity. 
             </h1>
 
-            <h1 className="header-text" id="osa2"> josta et voi muuttaa <br/> pois.
+            <h1 className="header-text" id="osa2"> That is what drives <br/> me.
             </h1>
-            <h2 className="header-text_guoter">- Jim Rohn -</h2>
+            <h2 className="header-text_guoter">- Elon Musk -</h2>
         </div>
 
       </div>

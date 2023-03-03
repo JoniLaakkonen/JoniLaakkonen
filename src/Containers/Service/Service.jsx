@@ -10,46 +10,43 @@ const Service = () => {
   const [isHovered3, setIsHovered3] = useState(false)
 
     
-  const goToRV = e => {
-      navigate('/ravintovalmennus')
-    }
-
-  const goToVT = e => {
-    navigate('/vyohyketerapia')
+  const GoToLinkedin = e => {
+      window.open('https://www.linkedin.com/in/joni-laakkonen-b46953206/')
   }
-  const goToTTO = e => {
-    navigate('/tunne_ja_tietoisuus')
+  const GoToCM = e => {
+    navigate('/contact_card')
+  }
+  const GoToSkills = e => {
+    navigate('/skills')
   }
 
     return (
 
         <>
-        <div className="srv">
-            <h1 id="header">"[Palvelut]"</h1>
-
+        <div id="skills_section">
             <div className="links-section">
-            <div className={"links-content"} id="lc1" onClick={goToRV}
+            <div className={"links-content"} id="lc1" onClick={GoToCM}
             onMouseEnter={() => setIsHovered2(false) && setIsHovered3(false) && setIsHovered1(true)}
             onMouseLeave={() => !isHovered2 && !isHovered3 ? setIsHovered2(true) : setIsHovered2(false)}
             >
                 <h2 className="linksto">
-                Ravinto- <br/> valmennus
+                  Contact Me
                 </h2>
             </div>
-            <div className={isHovered2 ? "links-content hovered" : "links-content"} id="lc2" onClick={goToVT}
+            <div className={isHovered2 ? "links-content hovered" : "links-content"} id="lc2" onClick={GoToSkills}
             onMouseEnter={() => setIsHovered2(true) && setIsHovered1(false) && setIsHovered3(false)}
             onMouseLeave={() => !isHovered3 && !isHovered1 ? setIsHovered2(true) : setIsHovered2(false)}
             >
                 <h2 className="linksto">
-                Vyöhyketerapia
+                  Skills
                 </h2>
             </div>
-            <div className={"links-content"} id="lc3" onClick={goToTTO}
+            <div className={"links-content"} id="lc3" onClick={GoToLinkedin}
             onMouseEnter={() => setIsHovered2(false) && setIsHovered1(false) && setIsHovered3(true)}
             onMouseLeave={() => !isHovered2 && !isHovered1 ? setIsHovered2(true) : setIsHovered2(false)}
             >
                 <h2 className="linksto">
-                Tunne- ja tietoisuustaito ohjaus
+                LinkedIn
                 </h2>
             </div>
         </div>

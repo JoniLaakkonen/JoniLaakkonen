@@ -1,21 +1,17 @@
 .navibar {
     display: flex;
-    position: sticky;
-    justify-content: space-around;
+    position: fixed;
     align-items: center;
     z-index: 1001;
-
     width: 100%;
     height: 8vh;
-
-    padding: 2rem 6rem;
-    background: radial-gradient(circle at 0% 70%, #fefaedaa 56%, #f4bd28aa 86%, #da7421aa 100%);
+    padding: 2rem 4rem;
+    background: radial-gradient(circle at 0% 70%, #efedfeaa 56%, var(--color-darkBlue) 86%, var(--color-Blue) 100%);
 }
 .navibar-links {
-    flex: 1;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    margin-left: 20%;
 }
 
 .nav-options{
@@ -23,7 +19,6 @@
 }
 
 .navibar-links_logo {
-    margin: 1rem 3rem 1rem 1rem;
     z-index: 1001;
     font-family: 'MySoul';
     font-size: 26px;
@@ -74,6 +69,8 @@
     font-size: 19px;
     font-weight: 750;
     transform: scaleX(1);
+    color: var(--color-Blue);
+    text-shadow: none;
 }
 
 .SMenuBtn{
@@ -83,15 +80,18 @@
 
 
 /*---------------------Mobile----------------------*/
-@media (max-width: 1056px) {
+@media (max-width: 800px) {
     .navibar {
         padding: 2rem;
+        justify-content: space-between;
     }
 
     .navibar-links {
         justify-content: space-between;
     }
-
+    .navibar-links_logo {
+        position: static;
+    }
     .nav-items {
         display: flex;
         position: fixed;

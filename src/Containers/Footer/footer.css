@@ -1,0 +1,30 @@
+footer{
+    display: flex;
+    flex-flow: column;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--color-footer);
+}
+.some_footer{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--color-text);
+}
+.icon:hover{
+    cursor: pointer;
+}
+#copyR{
+    text-align: center;
+    cursor: pointer;
+    transition: 100ms ease-in;
+}
+#copyR:hover{
+    color: var(--color-text);
+}

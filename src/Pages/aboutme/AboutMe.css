@@ -1,0 +1,150 @@
+.about_main{
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    width: 100%;
+    background: radial-gradient(circle at 0% 40%, #FFFFFF 30%, var(--color-darkBlue) 86%, var(--color-darkBlue) 100%);
+}
+#about_Header{
+    color: var(--color-darkBlue);
+    font-size: 42px;
+    text-align: center;
+    margin: 30px;
+    cursor: pointer;
+}
+.about_details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 5% 0;
+}
+#about_info{
+    width: 60%;
+    height: 300px;
+    padding: 15px 3rem;
+    border: 2px solid var(--color-text);
+    border-radius: 10px;
+    background: var(--color-darkBlue);
+}
+#about_name{
+    color: var(--color-text);
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#personal_info{
+    margin-bottom: 80px;
+    color: var(--color-text);
+}
+#contact_info{
+    color: var(--color-text);
+}
+#minakuva{
+    width: 240px;
+    height: 300px;
+    border-radius: 10px;
+}
+#scroll_down{
+    color: var(--color-text-light);
+    text-align: center;
+    cursor: pointer;
+    margin: 50px 0 50px 25%;
+    transition: 0.2s ease-in;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px var(--color-infobox) solid;
+}
+#scorll_down:hover{
+    font-size: 12px;
+    transform: scaleX(1);
+}
+#contactme_form{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/public/assets/images/Black_sand.jpg);
+    background-size: cover;
+    transition: 2000ms ease-in;
+}
+.contact_cntr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 90%;
+    background: var(--color-nav);
+    border-radius: 15px;
+}
+  .contact_cntr input, textarea {
+    display: flex;
+    width: 50vw;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    margin: 0.9vw 0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .contact_cntr textarea {
+    height: 30vh;
+  }
+  .contact_cntr label {
+    display: block;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: var(--color-text-light);
+    margin: 0 0 2vh 0;
+  }
+  .contact_cntr h5 {
+    font-size: 35px;
+    text-align: center;
+    color: #f55a00;
+    margin: 0 0 0.5vh 0;
+  }
+  .submitBtn {
+    display: block;
+    height: 2rem;
+    color: black;
+    width: 50vw;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    margin: 0.9vw 0;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    position: absolute;
+  }
+
+
+  /*---------------------Mobile----------------------*/
+@media (max-width: 652px) {
+    .about_details{
+        flex-flow: column-reverse;
+    }
+    #about_info{
+        width: 240px;
+        height: 100%;
+        padding: 15px 3rem;
+    }
+    #minakuva{
+        margin-bottom: 30px;
+    }
+    #scroll_down{
+        display: none;
+    }
+    .contact_cntr input, textarea {
+        display: flex;
+        width: 80vw;
+        padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+        margin: 0.9vw 0;
+    }
+    .submitBtn {
+        width: 80vw;
+    }
+}

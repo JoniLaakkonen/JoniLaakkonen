@@ -1,0 +1,13 @@
+#skills_cntr {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 0 10vh;
+    justify-content: center;
+    text-align: center;
+    background: radial-gradient(circle at 100% -40%, #1856c256 56%, #5ef428aa 2%, #7721daaa 100%);
+}
+#skills_cntr h1 {
+    color: var(--color-text);
+}
