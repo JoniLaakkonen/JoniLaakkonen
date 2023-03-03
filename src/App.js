@@ -9,7 +9,7 @@ import "./app.css";
 function App() {
 
   return (
-    <Router>
+    <Router basename="/React">
         <ScrollToTop/>
         <div className="App">
           <Routes>
