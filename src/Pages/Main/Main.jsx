@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Features, BasicTxtContainer, Service, Footer } from "../../Containers/index";
+import { Header, Features, BasicTxtContainer, Service } from "../../Containers/index";
 import "./main.css";
 
 function Main() {

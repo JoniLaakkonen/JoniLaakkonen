@@ -9,13 +9,13 @@ import "./app.css";
 function App() {
 
   return (
-    <Router basename="/React">
+    <Router>
         <ScrollToTop/>
         <div className="App">
           <Routes>
-            <Route path="/" element ={[<NavBar />, <Main />, <Footer />]} />
-            <Route path="/contact_card" element ={[<AboutMe />, <Footer />]} />
-            <Route path="/skills" element ={[<Skills />, <Footer />]} />
+            <Route path="/JoniLaakkonen" element ={[<NavBar />, <Main />, <Footer />]} />
+            <Route path="/JoniLaakkonen/contact_card" element ={[<AboutMe />, <Footer />]} />
+            <Route path="/JoniLaakkonen/skills" element ={[<Skills />, <Footer />]} />
           </Routes>
         </div>
     </Router>

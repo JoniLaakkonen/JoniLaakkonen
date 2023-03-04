@@ -14,10 +14,10 @@ const Service = () => {
       window.open('https://www.linkedin.com/in/joni-laakkonen-b46953206/')
   }
   const GoToCM = e => {
-    navigate('/contact_card')
+    navigate('/JoniLaakkonen/contact_card')
   }
   const GoToSkills = e => {
-    navigate('/skills')
+    navigate('/JoniLaakkonen/skills')
   }
 
     return (

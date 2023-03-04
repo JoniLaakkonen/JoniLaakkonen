@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import { navItems } from "./NavItems";
-//import logo from '../../Assets/logo.svg';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { Link } from "react-router-dom";
@@ -9,38 +8,10 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   const [navOpen, setNavOpen] = useState(false);
-
-
-
-  // const navSlide = () => {
-  //   const burger = document.querySelector('MenuButton');
-  //   const nav = document.querySelector('.nav-items');
-  //   const navLinks = document.querySelectorAll('#navA');
-    
-    
-  //   burger.addEventListener('click', () => {
-        
-  //       //toggle nav
-  //       nav.classList.toggle('nav-active');
-
-  //       //animate links
-  //       navLinks.forEach((link, index) => {
-  //           if(link.style.animation) {
-  //               link.style.animation = '';
-            
-  //           }else{
-  //               link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
-  //           }
-  //       });
-
-  //   });
-
-  // }
-
   return (
     <>
     <nav className="navibar">
-      <Link to={'/contact_card'} className="navibar-links_logo">
+      <Link to={'/JoniLaakkonen/contact_card'} className="navibar-links_logo">
           JoniLaakkonen
         </Link>
       <div className="navibar-links">
