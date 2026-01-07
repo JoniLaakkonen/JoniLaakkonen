@@ -14,10 +14,10 @@ const Service = () => {
       window.open('https://www.linkedin.com/in/joni-laakkonen-b46953206/')
   }
   const GoToCM = e => {
-    navigate('/JoniLaakkonen/contact_card')
+    window.open('https://slhealth.fi/')
   }
   const GoToSkills = e => {
-    navigate('/JoniLaakkonen/skills')
+    window.open('https://www.lumoavajasmin.fi/')
   }
 
     return (
@@ -29,16 +29,16 @@ const Service = () => {
             onMouseEnter={() => setIsHovered2(false) && setIsHovered3(false) && setIsHovered1(true)}
             onMouseLeave={() => !isHovered2 && !isHovered3 ? setIsHovered2(true) : setIsHovered2(false)}
             >
-                <h2 className="linksto">
-                  Contact Me
-                </h2>
+              
+              <h2 className="linksto">
+                  
+              </h2>
             </div>
             <div className={isHovered2 ? "links-content hovered" : "links-content"} id="lc2" onClick={GoToSkills}
             onMouseEnter={() => setIsHovered2(true) && setIsHovered1(false) && setIsHovered3(false)}
             onMouseLeave={() => !isHovered3 && !isHovered1 ? setIsHovered2(true) : setIsHovered2(false)}
             >
                 <h2 className="linksto">
-                  Skills
                 </h2>
             </div>
             <div className={"links-content"} id="lc3" onClick={GoToLinkedin}
@@ -46,7 +46,6 @@ const Service = () => {
             onMouseLeave={() => !isHovered2 && !isHovered1 ? setIsHovered2(true) : setIsHovered2(false)}
             >
                 <h2 className="linksto">
-                LinkedIn
                 </h2>
             </div>
         </div>

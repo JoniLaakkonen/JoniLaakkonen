@@ -12,19 +12,23 @@ function NavBar() {
     <>
     <nav className="navibar">
       <Link to={'/JoniLaakkonen/contact_card'} className="navibar-links_logo">
-          JoniLaakkonen
+          Joni Laakkonen
         </Link>
       <div className="navibar-links">
         <ul className={navOpen ? "nav-items active" : "nav-items"}>
           <div className="nav-options">
           {navItems.map(item => {
-              return(
-              <li key={item.id} className={item.cName} onClick={() => setNavOpen(false)}>
-                <a id="navA" href={item.path}>{item.title}</a>
-              </li>
+              return item.title === "GitHub" ?
+              (
+                <li key={item.id} className={item.cName} onClick={() => setNavOpen(false)}>
+                  <a id="navA" className="git" href={item.path}>{item.title}</a>
+                </li>
+              ) : (
+                <li key={item.id} className={item.cName} onClick={() => setNavOpen(false)}>
+                  <a id="navA" href={item.path}>{item.title}</a>
+                </li>
               );
-            })
-          } 
+          })}
           </div>
         </ul>
           <div className="SMenuBtn" style={{zIndex:1001}}>

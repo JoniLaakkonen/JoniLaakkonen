@@ -21,6 +21,7 @@ function Features() {
             }}/>
               
           </a>
+          <img src={process.env.PUBLIC_URL + '/assets/images/github-mark-white.png'} />
         </div>
       </div>
   );

@@ -19,8 +19,9 @@ export const navItems = [
   },
   {
     id: 4,
-    title: "Git Hub",
+    title: "GitHub",
     path: "#Features-section",
     cName: "nav-item",
   },
+  
 ];
