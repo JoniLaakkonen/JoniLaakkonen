@@ -1,10 +1,8 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 import "./service.css";
 
 const Service = () => {
     
-  const navigate = useNavigate();
   const [isHovered1, setIsHovered1] = useState(false)
   const [isHovered2, setIsHovered2] = useState(true)
   const [isHovered3, setIsHovered3] = useState(false)
