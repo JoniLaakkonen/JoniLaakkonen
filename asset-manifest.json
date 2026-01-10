@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/JoniLaakkonen/static/css/main.45b0dc2e.css",
+    "main.css": "/JoniLaakkonen/static/css/main.9c3abe58.css",
     "main.js": "/JoniLaakkonen/static/js/main.1bf9f6d0.js",
     "static/js/453.a6e3dec1.chunk.js": "/JoniLaakkonen/static/js/453.a6e3dec1.chunk.js",
     "static/media/Black_sand.jpg": "/JoniLaakkonen/static/media/Black_sand.258bf26226162f79a8ad.jpg",
@@ -9,12 +9,12 @@
     "static/media/MySoul-Regular.ttf": "/JoniLaakkonen/static/media/MySoul-Regular.fb315ae6ee7503ff5039.ttf",
     "static/media/lumoavajasmin-logo.jpg": "/JoniLaakkonen/static/media/lumoavajasmin-logo.2ed9ee479ef73b50cf19.jpg",
     "index.html": "/JoniLaakkonen/index.html",
-    "main.45b0dc2e.css.map": "/JoniLaakkonen/static/css/main.45b0dc2e.css.map",
+    "main.9c3abe58.css.map": "/JoniLaakkonen/static/css/main.9c3abe58.css.map",
     "main.1bf9f6d0.js.map": "/JoniLaakkonen/static/js/main.1bf9f6d0.js.map",
     "453.a6e3dec1.chunk.js.map": "/JoniLaakkonen/static/js/453.a6e3dec1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45b0dc2e.css",
+    "static/css/main.9c3abe58.css",
     "static/js/main.1bf9f6d0.js"
   ]
 }
