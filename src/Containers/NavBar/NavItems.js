@@ -13,8 +13,8 @@ export const navItems = [
   },
   {
     id: 3,
-    title: "Skills",
-    path: "#skills_section",
+    title: "Recent Work",
+    path: "#work_section",
     cName: "nav-item",
   },
   {

@@ -1,5 +1,5 @@
 
-#skills_section{
+#work_section{
     display: flex;
     flex-flow: column;
     justify-content: space-between;
@@ -9,10 +9,21 @@
     box-shadow: 0px -20px 25px -2px var(--color-shadow);
 }
 
+.skills_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    background-color: var(--color-darkBlue);
+}
+.skills_header h1 {
+    color: var(--color-text);
+}
+
 .srv #header {
     position: absolute;
     z-index: 1001;
-
     margin-top: 4vh;
     text-align: center;
     font-size: 42px;
@@ -43,7 +54,7 @@
 }
 #lc3 {
     background-color: #6505e2;
-    background-image: url(/public/assets/images/proveit-logo.jpg);
+    background-image: url(/public/assets/images/proveit-logo.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -54,7 +65,7 @@
     flex-direction: column;
     align-items: center;
     height: 100%;
-    width: calc(32vw + (32vw * 0.017));
+    width: calc(32vw + (32vw * 0.02));
     margin: 0;
     background: var(--color-tezt);
     transition: 0.4s ease-in-out;
@@ -67,7 +78,6 @@
     text-align: center;
     transition: 0.4s ease-in-out;
     cursor: pointer;
-    font-size: 22px;
 }
 
 .links-content:hover {
@@ -78,7 +88,7 @@
 
 .links-content.hovered#lc2  {
     z-index: 0;
-    width: 34vw;
+    width: 35vw;
     box-shadow: 0px 60px 40px 60px var(--color-shadow);
 }
 

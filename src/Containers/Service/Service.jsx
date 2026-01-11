@@ -21,7 +21,7 @@ const Service = () => {
     return (
 
         <>
-        <div id="skills_section">
+        <div id="work_section">
             <div className="links-section">
             <div className={"links-content"} id="lc1" onClick={GoToCM}
             onMouseEnter={() => setIsHovered2(false) && setIsHovered3(false) && setIsHovered1(true)}
@@ -43,8 +43,10 @@ const Service = () => {
             onMouseEnter={() => setIsHovered2(false) && setIsHovered1(false) && setIsHovered3(true)}
             onMouseLeave={() => !isHovered2 && !isHovered1 ? setIsHovered2(true) : setIsHovered2(false)}
             >
-                <h2 className="linksto">
-                </h2>
+                <h1 className="linksto">
+                  ProveIt<br/>
+                  (Coming soon)
+                </h1>
             </div>
         </div>
       </div>

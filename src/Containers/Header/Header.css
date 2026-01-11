@@ -8,7 +8,7 @@
     left: 0;
     top: 0;
     box-shadow: 0 40px 25px -2px var(--color-shadow);
-    background-image: var(--img-mies-etusivu);
+    background-image: var(--img-header);
     background-color: var(--color-lshadow);
     background-size: cover;
     background-attachment: initial;

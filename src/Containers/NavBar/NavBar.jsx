@@ -12,7 +12,7 @@ function NavBar() {
     <>
     <nav className="navibar">
       <Link to={'/JoniLaakkonen/contact_card'} className="navibar-links_logo">
-          Joni Laakkonen
+          Joni
         </Link>
       <div className="navibar-links">
         <ul className={navOpen ? "nav-items active" : "nav-items"}>

@@ -26,7 +26,7 @@
     --color-card-main: #4dff00;
     --color-card-light: #F3F3F3;
 
-    --img-mies-etusivu: url(/public/assets/images/Black_sand.jpg);
+    --img-header: url(/public/assets/images/Futuristic Developer Header.png);
 
     --color-cardStack: radial-gradient(circle at 100% -40%, #1856c256 56%, #5ef428aa 2%, #7721daaa 100%);
 }

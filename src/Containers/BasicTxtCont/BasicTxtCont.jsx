@@ -8,29 +8,19 @@ const BasicTxtContainer = () => {
           <div className="BTC-content">
             <article className="text-cntr">
                 <p className="BTC-text">
-                I am Computer sciences student in Karelia University of applied sciences, 
-                studying at 3rd year. I am looking for job positioning as software developer intern.
+                I’m a full-stack developer with a background in Computer Science from Karelia University of Applied Sciences, currently seeking a software developer position where I can continue to grow and deepen my technical expertise.
                 </p>
             </article>
 
             <article className="text-cntr" id="Bo2">
                 <p className="BTC-text">
-                As a person I am chill and chatty. I always get my jobs done no matter what 
-                and I always ensure that I have given my all to it.
+                I’m a calm, easy-going, and communicative person who takes pride in always getting the job done. When I commit to something, I give it my full effort — sometimes to the point of being a bit of a workaholic — because I care about delivering quality results and doing things right.
                 </p>
             </article>
 
-            <article className="text-cntr">
+            <article className="text-cntr" >
                 <p className="BTC-text">
-                In school we have studied a lot of programming. We have also studied some robotics 
-                and automation, big data, some cyber security, web protocols and a lot more. 
-                </p>
-            </article>
-
-            <article className="text-cntr" id="Bo2">
-                <p className="BTC-text">
-                My favorite yet has been databases & algorithms course. That course had me working 
-                a little bit harder to solve problems at the beginning.
+                Currently, my main focus is strengthening my back-end development and cybersecurity skills. My goal is to grow into a well-rounded developer — someone who understands systems from top to bottom and can confidently solve problems across the entire stack like a wizard.
                 </p>
             </article>
           </div>
