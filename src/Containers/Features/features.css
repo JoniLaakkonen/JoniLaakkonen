@@ -1,6 +1,7 @@
 #Features-section {
     display: flex;
     flex-flow: column;
+    overflow: hidden;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -10,6 +11,7 @@
 }
 
 .Features-content {
+    position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -54,5 +56,6 @@
     .Features-content img {
     position: absolute;
     right: -20%;
+    overflow: hidden;
 }
 }

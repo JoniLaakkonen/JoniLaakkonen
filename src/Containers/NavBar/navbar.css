@@ -170,8 +170,7 @@
         font-size: 24px;
         margin: 0;
         border-radius: 2px;
-        padding: 2rem 100vh;
-        
+        padding: 2rem 100vw;
         cursor: pointer;
         transition: 0.2s ease-in;
         white-space: nowrap;

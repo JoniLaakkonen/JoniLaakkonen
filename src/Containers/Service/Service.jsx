@@ -9,7 +9,7 @@ const Service = () => {
 
     
   const GoToLinkedin = e => {
-      window.open('https://www.linkedin.com/in/joni-laakkonen-b46953206/')
+      window.open('https://proveit.infinityfree.me/index.php')
   }
   const GoToCM = e => {
     window.open('https://slhealth.fi/')

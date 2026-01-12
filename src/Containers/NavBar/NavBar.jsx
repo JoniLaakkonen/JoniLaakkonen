@@ -14,8 +14,8 @@ function NavBar() {
       <Link to={'/JoniLaakkonen/contact_card'} className="navibar-links_logo">
           Joni
         </Link>
-      <div className="navibar-links">
-        <ul className={navOpen ? "nav-items active" : "nav-items"}>
+      <div className="navibar-links" >
+        <ul className={navOpen ? "nav-items active" : "nav-items"} onClick={() => setNavOpen(false)}>
           <div className="nav-options">
           {navItems.map(item => {
               return item.title === "GitHub" ?

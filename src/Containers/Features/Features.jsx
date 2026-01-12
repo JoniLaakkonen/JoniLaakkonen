@@ -1,12 +1,15 @@
 import React from "react";
 import "./features.css";
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
+import { useMediaQuery } from "@mui/material";
 
 function Features() {
 
   const handleClick = () => {
     window.open("https://github.com/JoniLaakkonen");
   }
+  const isMobile = useMediaQuery('(max-width:800px)');
+
 
   return (
       <div id="Features-section">
@@ -16,7 +19,7 @@ function Features() {
               Git-Hub
             </h2>
             <ArrowCircleRightIcon sx={{ 
-                color: "white", 
+                color: isMobile ? "black" :"white", 
                 fontSize: 48
             }}/>
               
